@@ -1,0 +1,14 @@
+.navbar{
+    list-style-type: none;
+    display: flex;
+    gap: 8rem;
+    flex-direction: row;
+}
+
+body{
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
