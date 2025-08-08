@@ -1,0 +1,19 @@
+* {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1.2rem;
+}
+
+.navbar {
+  list-style-type: none;
+  display: flex;
+  gap: 8rem;
+  flex-direction: row;
+}
+
+body {
+  background-color: beige;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
