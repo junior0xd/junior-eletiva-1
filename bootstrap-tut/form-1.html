@@ -1,11 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário Simples</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
 </head>
-<body>
-    
+
+<body class="bg-dark-subtle text-dark-emphasis">
+    <main class="border border-5 rounded-3 container p-4 mt-4">
+        <form action="" class="d-flex gap-1 justify-content-end flex-column w-100">
+            <section class="container d-flex gap-3 justify-content-start pt-2">
+                <div class="col-2">
+                    <label class="" for="firstname"> Primeiro Nome</label>
+                    <input class="form-control" type="text" id="firstname">
+                </div>
+                <div class="col-2">
+                    <label class="" for="lastname"> Último Nome</label>
+                    <input class="form-control" type="text" id="lastname">
+                </div>
+                <div class="">
+                    <label class="" for="username">Usuário</label>
+                    <div class="input-group">
+                        <span class="input-group-text">@</span>
+                        <input class="form-control" type="text" placeholder="Username" id="username">
+                    </div>
+                </div>
+            </section>
+            <section class="container d-flex gap-3 justify-content-start pt-2">
+                <div class="col-3">
+                    <label for="city">Cidade</label>
+                    <input class="form-control" type="text" id="city">
+                </div>
+                <div class="col-3">
+                    <label for="state">Estado</label>
+                    <input class="form-control" type="text" id="state">
+                </div>
+                <div class="col-1">
+                    <label for="zipcode">CEP</label>
+                    <input class="form-control" type="text" id="zipcode">
+                </div>
+            </section>
+            <label for="radio1">
+                <input type="checkbox" name="" id="radio"> Concordo com os termos de uso
+            </label>
+            <input class="col-2" type="button" value="Enviar formulário">
+        </form>
+    </main>
+    <script src="bootstrap.bundle.min.js">
+    </script>
 </body>
+
 </html>
