@@ -57,7 +57,7 @@
         </form>
 
         <form action="" class="border rounded-2 border-info p-4">
-            <div class="row">
+            <div class="row mb-3">
                 <div class="col-1">
                     <label for="codigo" class="form-label"> Código</label>
                     <input type="text" class="form-control text-center" disabled placeholder="32">
@@ -75,7 +75,7 @@
                     <input type="text" id="cpf-number" class="form-control" placeholder="Apenas números">
                 </div>
             </div>
-            <div class="row">
+            <div class="row mb-3">
                 <div class="col-2">
                     <label for="numero-celular" class="form-label">Número de celular</label>
                     <input type="text" id="numero-celular" class="form-control" placeholder="Apenas números">
@@ -101,18 +101,28 @@
                     <input type="text" id="bairro" class="form-control" placeholder="Vida Nova II">
                 </div>
             </div>
-            <div class="row">
+            <div class="row mb-3">
                 <div class="col-2">
                     <label for="cidade-2" class="form-label"> Cidade </label>
-                    <input type="text" id="cidade-2" class="form-control">
+                    <input type="text" id="cidade-2" class="form-control" placeholder="Presidente Prudente">
                 </div>
                 <div class="col-1">
                     <label for="uf" class="form-label">UF</label>
-                    <input type="text" id="UF" class="form-control">
+                    <input type="text" id="UF" class="form-control" placeholder="SP">
                 </div>
-                <div class="col">
-                    <label for=""></label>
-                    <select name="Status" id="Status"></select>
+                <div class="col-2">
+                    <label for="status" class="form-label">Status</label>
+                    <select name="status" id="status" class="form-select">
+                        <option selected>Selecione</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-1">
+                    <button class="btn btn-danger" type="reset">Resetar</button>
+                </div>
+                <div class="col-1">
+                    <button class="btn btn-success" type="submit">Enviar</button>
                 </div>
             </div>
         </form>
