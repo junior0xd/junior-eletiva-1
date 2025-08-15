@@ -11,20 +11,21 @@
 <body class="text-bg-dark">
     <main class="container mt-5">
         <form action="" class="border rounded-2 border-light p-4 mb-4">
+            <h2>Formulário 1</h2>
             <div class="row mb-3">
                 <div class="col">
                     <label for="primeiro-nome" class="form-label"> Primeiro Nome</label>
-                    <input type="text" id="primeiro-nome" class="form-control">
+                    <input type="text" name="primeiro-nome" class="form-control">
                 </div>
                 <div class="col">
                     <label for="segundo-nome" class="form-label"> Segundo Nome</label>
-                    <input type="text" id="segundo-nome" class="form-control">
+                    <input type="text" name="segundo-nome" class="form-control">
                 </div>
                 <div class="col-3">
                     <label for="usuario" class="form-label"> Usuário </label>
                     <div class="input-group">
                         <span class="input-group-text text-bg-secondary">@</span>
-                        <input type="text" id="usuario" class="form-control">
+                        <input type="text" name="usuario" class="form-control">
                     </div>
                 </div>
             </div>
@@ -32,20 +33,20 @@
             <div class="row mb-3">
                 <div class="col">
                     <label for="cidade" class="form-label">Cidade</label>
-                    <input type="text" id="cidade" class="form-control">
+                    <input type="text" name="cidade" class="form-control">
                 </div>
                 <div class="col-4">
                     <label for="estado" class="form-label">Estado</label>
-                    <input type="text" id="estado" class="form-control">
+                    <input type="text" name="estado" class="form-control">
                 </div>
                 <div class="col-3">
                     <label for="cep" class="form-label">CEP</label>
-                    <input type="text" id="cep" class="form-control">
+                    <input type="text" name="cep" class="form-control">
                 </div>
             </div>
 
             <div class="form-check mb-3">
-                <input type="checkbox" id="termos-de-uso" class="form-check-input">
+                <input type="checkbox" name="termos-de-uso" class="form-check-input">
                 <label for="termos-de-uso">
                     Concordo com os termos e condições de uso
                 </label>
@@ -57,6 +58,7 @@
         </form>
 
         <form action="" class="border rounded-2 border-info p-4">
+            <h2>Formulário 2</h2>
             <div class="row mb-3">
                 <div class="col-1">
                     <label for="codigo" class="form-label"> Código</label>
@@ -64,65 +66,90 @@
                 </div>
                 <div class="col">
                     <label for="nome" class="form-label">Nome</label>
-                    <input type="text" id="nome" class="form-control" placeholder="Nome completo do cliente">
+                    <input type="text" name="nome" class="form-control" placeholder="Nome completo do cliente">
                 </div>
                 <div class="col">
                     <label for="email" class="form-label">Email</label>
-                    <input type="text" id="email" class="form-control" placeholder="cliente@dominio.com">
+                    <input type="text" name="email" class="form-control" placeholder="cliente@dominio.com">
                 </div>
                 <div class="col">
                     <label for="cpf-number" class="form-label">CPF</label>
-                    <input type="text" id="cpf-number" class="form-control" placeholder="Apenas números">
+                    <input type="text" name="cpf-number" class="form-control" placeholder="Apenas números">
                 </div>
             </div>
             <div class="row mb-3">
                 <div class="col-2">
                     <label for="numero-celular" class="form-label">Número de celular</label>
-                    <input type="text" id="numero-celular" class="form-control" placeholder="Apenas números">
+                    <input type="text" name="numero-celular" class="form-control" placeholder="Apenas números">
                 </div>
                 <div class="col-2">
                     <label for="numero-telefone" class="form-label">Número de telefone</label>
-                    <input type="text" id="numero-telefone" class="form-control" placeholder="Apenas números">
+                    <input type="text" name="numero-telefone" class="form-control" placeholder="Apenas números">
                 </div>
                 <div class="col-2">
                     <label for="cep-2" class="form-label">CEP</label>
-                    <input type="text" id="cep-2" class="form-control" placeholder="19044-351">
+                    <input type="text" name="cep-2" class="form-control" placeholder="19044-351">
                 </div>
                 <div class="col-3">
                     <label for="logradouro" class="form-label">Logradouro</label>
-                    <input type="text" id="logradouro" class="form-control" placeholder="Rua João Ferreira de Souza Filho">
+                    <input type="text" name="logradouro" class="form-control" placeholder="Rua João Ferreira de Souza Filho">
                 </div>
                 <div class="col-1">
                     <label for="numero-logradouro" class="form-label">Nº</label>
-                    <input type="text" id="numero-logradouro" class="form-control" placeholder="344">
+                    <input type="text" name="numero-logradouro" class="form-control" placeholder="344">
                 </div>
                 <div class="col">
                     <label for="bairro" class="form-label">Bairro</label>
-                    <input type="text" id="bairro" class="form-control" placeholder="Vida Nova II">
+                    <input type="text" name="bairro" class="form-control" placeholder="Vida Nova II">
                 </div>
             </div>
             <div class="row mb-3">
                 <div class="col-2">
                     <label for="cidade-2" class="form-label"> Cidade </label>
-                    <input type="text" id="cidade-2" class="form-control" placeholder="Presidente Prudente">
+                    <input type="text" name="cidade-2" class="form-control" placeholder="Presidente Prudente">
                 </div>
                 <div class="col-1">
                     <label for="uf" class="form-label">UF</label>
-                    <input type="text" id="UF" class="form-control" placeholder="SP">
+                    <input type="text" name="UF" class="form-control" placeholder="SP">
                 </div>
                 <div class="col-2">
                     <label for="status" class="form-label">Status</label>
-                    <select name="status" id="status" class="form-select">
+                    <select name="status" name="status" class="form-select">
                         <option selected>Selecione</option>
                     </select>
                 </div>
             </div>
-            <div class="row">
+            <div class="row flex-row-reverse gap-3">
                 <div class="col-1">
-                    <button class="btn btn-danger" type="reset">Resetar</button>
+                    <button class="btn btn-danger btn-lg" type="reset">Resetar</button>
                 </div>
-                <div class="col-1">
-                    <button class="btn btn-success" type="submit">Enviar</button>
+                <div class="col-1 order-first">
+                    <button class="btn btn-success btn-lg" type="submit">Enviar</button>
+                </div>
+            </div>
+        </form>
+
+        <form action="" class="border rounded-2 border-success p-4 mb-4">
+            <div class="row row-cols-2">
+                <div class="col">
+                    <label for="" class="form-label text-black"></label>
+                    <input type="text" name="" class="form-control">
+                </div>
+                <div class="col">
+                    <label for="" class="form-label text-black"></label>
+                    <input type="text" name="" class="form-control">
+                </div>
+                <div class="col">
+                    <label for="" class="form-label text-black"></label>
+                    <input type="text" name="" class="form-control">
+                </div>
+                <div class="col">
+                    <label for="" class="form-label text-black"></label>
+                    <input type="text" name="" class="form-control">
+                </div>
+                <div class="col">
+                    <label for="" class="form-label text-black"></label>
+                    <input type="text" name="" class="form-control">
                 </div>
             </div>
         </form>
