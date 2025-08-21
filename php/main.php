@@ -6,8 +6,9 @@
     <title>Document</title>
 </head>
 <body>
-    <?php $name = $_POST['name'] ?>
-
-    <h1>Olá <?php echo $name; ?> </h1>
+    <form action="acao.php" method="post">
+        <label for="name">Nome</label>
+        <input type="text" name="name">
+    </form>
 </body>
 </html>
