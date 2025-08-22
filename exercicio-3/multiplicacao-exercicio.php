@@ -16,6 +16,7 @@
               <label for="num2" class="form-label">Segundo Número</label>
               <input type="text" id="num2" name="num2" class="form-control" required="">
             </div></div>
+            <p>Digite dois números para multiplicar</p>
 <button type="submit" class="btn btn-primary">Enviar</button>
 </form>
 <?php
@@ -24,7 +25,7 @@
     $num2 = $_POST['num2'];
     $res = $num1 * $num2;
     
-    echo '<div><h1 class="mt-4 text-center text-light">A res é '.$res.'</h1></div>';
+    echo '<div><h1 class="mt-4 text-center text-light">O resultado é igual a '.$res.'</h1></div>';
   }
 
 
