@@ -16,15 +16,16 @@
               <label for="num2" class="form-label">Segundo Número</label>
               <input type="text" id="num2" name="num2" class="form-control" required="">
             </div></div>
+            <p>Digite um número e depois outro que irá subtrair o primeiro. </p>
 <button type="submit" class="btn btn-primary">Enviar</button>
 </form>
 <?php
   if($_SERVER["REQUEST_METHOD"] == "POST"){
     $num1 = $_POST['num1'];
     $num2 = $_POST['num2'];
-    $res = $num1 + $num2;
+    $res = $num1 - $num2;
     
-    echo '<div><h1 class="mt-4 text-center text-light">A soma é '.$res.'</h1></div>';
+    echo '<div><h1 class="mt-4 text-center text-light">O resultado é '.$res.'</h1></div>';
   }
 
 
