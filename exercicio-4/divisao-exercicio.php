@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Adição</title>
+    <title>Multiplicação</title>
     <link rel="stylesheet" href="../bootstrap-tut/bootstrap.min.css">
 </head>
 <body class="bg-dark container">
-    <h1 class="text-light mt-4">Soma</h1>
-<form method="post" action="adicao-exercicio.php" class="p-4 mt-4 text-light container">
+    <h1 class="text-light text mt-4">Multiplicação</h1>
+<form method="post" action="divisao-exercicio.php" class="p-4 mt-4 text-light container">
 <div class="row inline-row mb-3"><div class="col-md-2">
               <label for="num1" class="form-label">Primeiro Número</label>
               <input type="number" id="num1" name="num1" class="form-control" required="">
@@ -16,16 +16,16 @@
               <label for="num2" class="form-label">Segundo Número</label>
               <input type="text" id="num2" name="num2" class="form-control" required="">
             </div></div>
-            <p>Digite um número para somar a outro</p>
 <button type="submit" class="btn btn-primary">Enviar</button>
 </form>
 <?php
   if($_SERVER["REQUEST_METHOD"] == "POST"){
     $num1 = $_POST['num1'];
     $num2 = $_POST['num2'];
-    $soma = $num1 + $num2;
+    $res = $num1 / $num2;
+    if ($num1 )
     
-    echo '<div><h1 class="mt-4 text-center text-light">A soma é '.$soma.'</h1></div>';
+    echo '<div><h1 class="mt-4 text-center text-light">A res é '.$res.'</h1></div>';
   }
 
 
