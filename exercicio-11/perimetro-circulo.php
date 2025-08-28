@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../bootstrap-tut/bootstrap.min.css">
-    <title>Área do círculo</title>
+    <title>Perímetro do círculo</title>
 </head>
 <body class="bg-dark text-light">
     <main class="container mt-5">
-        <h1 class="m-4 text-center">Área do círculo</h1>
-        <form class="border rounded-2 border-light-subtle" action="area-circulo.php" method="post">
+        <h1 class="m-4 text-center">Perímetro do círculo</h1>
+        <form class="border rounded-2 border-light-subtle" action="perimetro-circulo.php" method="post">
             <div class="row flex justify-content-center">
                 <div class="col-4 text-center">
                     <label for="raio">Raio</label>
@@ -27,9 +27,9 @@
         <?php
         if ($_SERVER["REQUEST_METHOD"] == "POST"){
             $raio = $_POST["raio"];
-            $area_circulo = pi() * $raio ** 2;
+            $perimetro_circulo = pi() * $raio *  2;
 
-            echo '<h1 class="text-ligt text-center mt-3">A área do círculo é igual a '.number_format($area_circulo, 2).'m²</h1>';
+            echo '<h1 class="text-ligt text-center mt-3">O perímetro do círculo é igual a '.number_format($perimetro_circulo, 2).'m</h1>';
         }
         
         ?>
