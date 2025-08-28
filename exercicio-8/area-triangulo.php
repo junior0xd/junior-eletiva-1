@@ -11,7 +11,7 @@
 <body class="bg-dark text-light">
     <main class="container mt-5">
         <h1 class="m-4 text-center">Calcular área do triângulo</h1>
-        <form action="area-triangulo.php" method="post" class="border rounder-2 border-light-subtle">
+        <form action="area-triangulo.php" method="post" class="border rounded-2 border-light-subtle">
             <div class="row m-4 flex justify-content-center">
                 <div class="col-2 text-center">
                     <label for="tamanho-base" class="form-label">Base</label>
