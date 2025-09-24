@@ -14,7 +14,7 @@
         <form class="border rounded-2 border-light-subtle" action="converter-km.php" method="post">
             <div class="row flex justify-content-center m-4">
                 <div class="col-2">
-                    <label class="form-label" for="quilometros">KM</label>
+                    <label class="form-label" for="quilometros">Quilômetros</label>
                     <input class="form-control" type="number" step="0.01" id="quilometros" name="quilometros">
                 </div>
                 <div class="row m-4 flex justify-content-center">
@@ -28,7 +28,7 @@
 
         $milhas = $quilometros / 1.60934;
 
-        echo '<h1 class="text-light text-center mt-3">' . $quilometros . ' quilometros é igual a ' . $milhas . ' milhas</h1>';
+        echo '<h1 class="text-light text-center mt-3">' . $quilometros . ' quilômetros é igual a ' . $milhas . ' milhas</h1>';
     }
     ?>
     <script src="../bootstrap-tut/bootstrap.min.css"></script>
