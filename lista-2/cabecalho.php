@@ -40,7 +40,7 @@
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#">Sobre</a>
+                        <a class="nav-link" aria-current="page" href="#sobre">Sobre</a>
                     </li>
                 </ul>
             </div>

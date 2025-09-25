@@ -1,4 +1,4 @@
-<main class="container mt-5 text-center">
+<div class="container mt-5 text-center">
     <h1 class="fs-2"> Every Breath You Take</h1>
     <h2 class="fs-4"> The Police</h2>
     <p class="fs-6">Every breath you take
@@ -44,5 +44,5 @@
         <br> Every move you make
         <br> I'll be watching you
     </p>
-    <main>
+<div>
         
