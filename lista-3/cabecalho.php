@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../bootstrap.min.css">
-    <title>Lista de Exercícios 2</title>
+    <title>Lista 3</title>
 </head>
 
 <body class="bg-dark text-light container">
@@ -33,10 +33,6 @@
                                 <li><a class="dropdown-item" href="?page=exercicio-4">Exercício 4</a></li>
                                 <li><a class="dropdown-item" href="?page=exercicio-5">Exercício 5</a></li>
                                 <li><a class="dropdown-item" href="?page=exercicio-6">Exercício 6</a></li>
-                                <li><a class="dropdown-item" href="?page=exercicio-7">Exercício 7</a></li>
-                                <li><a class="dropdown-item" href="?page=exercicio-8">Exercício 8</a></li>
-                                <li><a class="dropdown-item" href="?page=exercicio-9">Exercício 9</a></li>
-                                <li><a class="dropdown-item" href="?page=exercicio-10">Exercício 10</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
