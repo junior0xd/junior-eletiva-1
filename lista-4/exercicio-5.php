@@ -37,7 +37,6 @@ function OrganizarLivros(&$livros) //parametro por referência
 }
 function ListarLivros()
 {
-
     $livros = RecuperarLivros();
     OrganizarLivros($livros);
     if (count($livros) == 0) {
