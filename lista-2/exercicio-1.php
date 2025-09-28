@@ -1,5 +1,5 @@
 <div class="container mt-4">
-    <h1 class="fs-3 text-center w-100">Menor número</h1>
+    <h1 class="fs-3 text-center w-100">Exercício 1 - Lista 2</h1>
     <form action="?page=exercicio-1" method="post">
         <div class="row justify-content-center mt-2">
             <div class="col-2">
