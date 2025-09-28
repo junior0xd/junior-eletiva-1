@@ -18,7 +18,7 @@
     </form>
 </div>
 <?php
-function ListarLivros()
+function RecuperarLivros()
 {
     $file = fopen("livros.txt", "r");
     $livros = [];
@@ -29,6 +29,17 @@ function ListarLivros()
         }
     }
     fclose($file);
+    return $livros;
+}
+function OrganizarLivros(&$livros) //parametro por referência
+{
+    ksort($livros);
+}
+function ListarLivros()
+{
+
+    $livros = RecuperarLivros();
+    OrganizarLivros($livros);
     if (count($livros) == 0) {
         echo '<h1 class="text-danger text-center mt-3">Nenhum livro adicionado</h1>';
     } else {
@@ -38,7 +49,11 @@ function ListarLivros()
         echo '<thead><tr><th>Livro</th><th>Quantidade</th></tr></thead>';
         echo '<tbody>';
         foreach ($livros as $livro => $quantidade) {
-            echo '<tr><td>' . htmlspecialchars($livro) . '</td><td>' . htmlspecialchars($quantidade) . '</td></tr>';
+            if ($quantidade < 5) {
+                echo '<tr><td class="text-danger">' . htmlspecialchars($livro) . '</td><td class="text-danger">' . htmlspecialchars($quantidade) . '</td></tr>';
+            } else {
+                echo '<tr><td>' . htmlspecialchars($livro) . '</td><td>' . htmlspecialchars($quantidade) . '</td></tr>';
+            }
         }
         echo '</tbody></table></div>';
     }

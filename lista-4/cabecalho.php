@@ -9,7 +9,7 @@
 <body class="bg-dark text-light container">
     <nav class="navbar navbar-expand-lg mb-4 mt-4 bg-light rounded-2">
         <div class="container">
-            <a class="navbar-brand border border-2 rounded-2 p-2 border-primary" href="#">[GOATSE]</a>
+            <a class="navbar-brand border border-2 rounded-2 p-2 border-primary" href="#">[GOAT se]</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Alternar navegação">
                 <span class="navbar-toggler-icon"></span>
             </button>
