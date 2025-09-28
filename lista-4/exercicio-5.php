@@ -22,10 +22,10 @@ function RecuperarLivros()
 {
     $file = fopen("livros.txt", "r");
     $livros = [];
-    while (($line = fgets($file)) !== false) {
-        $parts = explode(",", trim($line));
-        if (count($parts) == 2) {
-            $livros[$parts[0]] = $parts[1];
+    while (($linha = fgets($file)) !== false) { //pega primeira linha, verifica EOF
+        $partes = explode(",", trim($linha));   //quebra a linha em partes
+        if (count($partes) == 2) {              //verifica se tem 2 partes
+            $livros[$partes[0]] = $partes[1];   //adiciona ao array
         }
     }
     fclose($file);
