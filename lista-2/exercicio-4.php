@@ -1,6 +1,6 @@
 <div class="container mt-4">
     <h1 class="fs-4 text-center">Exercício 4 - Lista 2</h1>
-    <form action="?page=exercicio-4.php" method="post">
+    <form action="?page=exercicio-4" method="post">
         <div class="row justify-content-center">
             <div class="col-2">
                 <label for="valor"> Valor do produto</label>
@@ -18,8 +18,8 @@
         if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $valor = $_POST["valor"];
             
-            if($valor > 1000) {
-                $desconto = $valor * 0.10;
+            if($valor > 100) {
+                $desconto = $valor * 0.15;
                 $valor_final = $valor - $desconto;
                 echo '<h1 class="text-light text-center mt-3">O valor final com desconto é R$ ' . number_format($valor_final, 2) . '</h1>';
             } else {
