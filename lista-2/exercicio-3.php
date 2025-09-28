@@ -22,7 +22,7 @@
         if ($numero1 < $numero2) {
             echo '<h1 class="text-light text-center mt-3">' . htmlspecialchars($numero1) . ', ' . htmlspecialchars($numero2) . '</h1>';
         }
-        if ($numero1 == $numero2) {
+        elseif ($numero1 == $numero2) {
             echo '<h1 class="text-light text-center mt-3">Os números são iguais: ' . htmlspecialchars($numero1) . '</h1>';
         } else {
             echo '<h1 class="text-light text-center mt-3">' . htmlspecialchars($numero2) . ', ' . htmlspecialchars($numero1) . '</h1>';
