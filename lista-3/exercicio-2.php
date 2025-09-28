@@ -1,6 +1,6 @@
 <div class="container mt-4">
     <h1 class="fs-4 text-center">Exercício 2 - Lista 3</h1>
-    <form action="?page=exercicio-2" method="post">
+    <form action="?page=exercicio-2" method="POST">
         <div class="row justify-content-center">
             <div class="col-6">
                 <label for="form-label" for="texto"> Texto</label>
