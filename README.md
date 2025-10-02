@@ -4,8 +4,8 @@ Este repositório contém exercícios resolvidos da disciplina de Programação 
 
 - P1
     - Links do vídeo: 
-    - [Youtube](https://youtu.be/Q4yZFVpAYSE)
-    - [Google Drive](https://drive.google.com/file/d/1sLSA8W1o7OqqBoW7LWpaDvTrKzXz_GQs/view?usp=drive_link)
+        - [Youtube](https://youtu.be/Q4yZFVpAYSE)
+        - [Google Drive](https://drive.google.com/file/d/1sLSA8W1o7OqqBoW7LWpaDvTrKzXz_GQs/view?usp=drive_link)
 - Repositório acadêmico
 - Exercícios resolvidos
 - Material de apoio para estudantes
