@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../bootstrap.min.css">
-    <title>Lista de Exercícios 2</title>
+    <title>Lista 2</title>
 </head>
 
 <body class="bg-dark text-light container">
