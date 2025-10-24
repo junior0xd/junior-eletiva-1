@@ -20,12 +20,7 @@ Este repositório contém exercícios resolvidos da disciplina de Programação 
     sudo apt update
     sudo apt install php-mysql
 ```
-2. Reinicie o servidor Apache.
-```bash
-    sudo systemctl restart apache2
-```
-
-3. Verifique se a extensão está habilitada no arquivo `php.ini`.\
+2. Verifique se a extensão está habilitada no arquivo `php.ini`.\
 
     Na minha máquina está instalado a versão 8.3 do PHP e estou utilizando o editor Xed.
 ```bash
@@ -36,6 +31,9 @@ Este repositório contém exercícios resolvidos da disciplina de Programação 
     Adicione a linha `extension=pdo` se não estiver presente.
 
 
-4. Reinicie o servidor Apache novamente.
-5. Verifique se o problema foi resolvido acessando sua aplicação novamente.
+3. Reinicie o servidor Apache.
+```bash
+    sudo systemctl restart apache2
+```
+4. Verifique se o problema foi resolvido acessando sua aplicação novamente.
 
