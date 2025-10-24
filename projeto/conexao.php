@@ -1,13 +1,13 @@
-<?php 
-$host = "mysql:host=localhost;dbname=projetophp";
-$user = "root";
-$pass = "";
+<?php
 
-try {
-    $pdo = new PDO($host, $user, $pass);
-} catch (Exception $e) {
-    die("Erro:".$e->getMessage());
-}
+    $dominio = "mysql:host=localhost;dbname=projetophp";
+    $usuario = "root";
+    $senha = "";
 
-//FALTA TESTAR
-?>
+    //phpinfo();
+
+    try {
+        $pdo = new PDO($dominio, $usuario, $senha);
+    } catch (Exception $e) {
+        die("Erro ao conectar ao banco!".$e->getMessage());
+    }
