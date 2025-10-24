@@ -2,7 +2,7 @@
     require("cabecalho.php");
     require("conexao.php");
     try{
-        $stmt = $pdo->query("SELECT c.nome p.* FROM categoria");
+        $stmt = $pdo->query("SELECT * FROM categoria");
         $dados = $stmt->fetchAll();
     } catch(\Exception $e){
         echo "Erro: ".$e->getMessage();
