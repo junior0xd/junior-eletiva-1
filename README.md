@@ -8,6 +8,11 @@ Este repositório contém exercícios resolvidos da disciplina de Programação 
     - Links do vídeo: 
         - [Youtube](https://youtu.be/Q4yZFVpAYSE)
         - [Google Drive](https://drive.google.com/file/d/1sLSA8W1o7OqqBoW7LWpaDvTrKzXz_GQs/view?usp=drive_link)
+- P2
+    - Link do Repositório:
+        - [projeto-eletiva-1](https://github.com/junior0xd/projeto-eletiva-1)
+    - Link do Vídeo:
+        -[Youtube](https://youtu.be/tjy8uOKhd3E)
 - Repositório acadêmico
 - Exercícios resolvidos
 - Material de apoio para estudantes
