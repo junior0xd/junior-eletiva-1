@@ -12,7 +12,7 @@ Este repositório contém exercícios resolvidos da disciplina de Programação 
     - Link do Repositório:
         - [projeto-eletiva-1](https://github.com/junior0xd/projeto-eletiva-1)
     - Link do Vídeo:
-        -[Youtube](https://youtu.be/tjy8uOKhd3E)
+        - [Youtube](https://youtu.be/tjy8uOKhd3E)
 - Repositório acadêmico
 - Exercícios resolvidos
 - Material de apoio para estudantes
